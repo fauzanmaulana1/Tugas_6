@@ -20,3 +20,6 @@ Recovery
 Data yang telah di-backup dapat dikembalikan kapan saja bila diperlukan. Sintaks SQL yang digunakan adalah LOAD DATA INFILE. Perintah yang dijalankan adalah
 
 LOAD DATA INFILE ‘Nama_backup_file’ INTO TABLE nama_table ;
+![image](https://user-images.githubusercontent.com/101807419/174799156-b0061c13-9b72-463b-a33f-3b4536289d9c.png)
+
+- Lakukan proses backup dan recovery dengan sqldump dari database tugas seblumnya !
