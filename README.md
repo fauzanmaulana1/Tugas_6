@@ -11,4 +11,12 @@
 - Lakukan proses backup dan recovery dengan sql dari database tugas seblumnya !
 Backup
 ![image](https://user-images.githubusercontent.com/101807419/174797226-644169f0-d91f-4284-b557-9e656783de92.png)
+
 Jika proses backup berhasil maka akan muncul file backuppada direktori C:\xampp\mysql\data\nama database
+![image](https://user-images.githubusercontent.com/101807419/174797417-a3e85804-d261-4bee-baca-50f882e37df3.png)
+
+Recovery
+
+Data yang telah di-backup dapat dikembalikan kapan saja bila diperlukan. Sintaks SQL yang digunakan adalah LOAD DATA INFILE. Perintah yang dijalankan adalah
+
+LOAD DATA INFILE ‘Nama_backup_file’ INTO TABLE nama_table ;
